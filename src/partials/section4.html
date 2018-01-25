@@ -1,0 +1,23 @@
+<section class="section4">
+  <div class="mbox">
+    <div class="title">
+      <h2>Нужно арендовать помещение ?</h2>
+      <p>Заполните форму и мы свяжемся с вами в ближайшее время!</p>
+    </div>
+    <form class="rent-form" action="ajax-programer.php" method="post">
+      <div class="form-field">
+        <label for="company-rent">Название вашей компании</label>
+        <input id="company-rent" type="text" name="company" placeholder="Например, Google" required />
+      </div>
+      <div class="form-field">
+        <label for="name-rent">Как вас зовут?</label>
+        <input id="name-rent" type="text" name="name" placeholder="Введите имя и фамилию" required />
+      </div>
+      <div class="form-field">
+        <label for="tel-rent">Ваш телефон</label>
+        <input id="tel-rent" class="tel-mask" type="tel" name="tel" placeholder="Введите телефон" required />
+      </div>
+      <button class="el-button" type="submit">оставить заявку</button>
+    </form>
+  </div>
+</section>
